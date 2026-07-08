@@ -43,7 +43,7 @@ urlpatterns = [
     ),
     path(
         "cars/",
-         CarListView.as_view(),
+        CarListView.as_view(),
         name="car-list"
     ),
     path(
